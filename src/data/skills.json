@@ -1,0 +1,50 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "link":"https://html.com/"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "link":"https://html.com/"
+
+  },
+  {
+    "title": "javaScript",
+    "imageSrc": "skills/java-s.png",
+    "link":"https://html.com/"
+
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "link":"https://html.com/"
+
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png",
+    "link":"https://html.com/"
+
+
+  },
+  {
+    "title": "Api",
+    "imageSrc": "skills/Api.png",
+    "link":"https://html.com/"
+
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png",
+    "link":"https://html.com/"
+
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "link":"https://html.com/"
+
+  }
+]

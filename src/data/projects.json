@@ -1,0 +1,44 @@
+[
+
+  {
+    "title": "Youtube-Clone",
+    "imageSrc": "projects/project2.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Taliwind", "Node"],
+    "demo": "https://rs-youtube-lite.netlify.app/",
+    "source": "https://www.github.com"
+  },
+    {
+    "title": "Weather-Api",
+    "imageSrc": "projects/project3.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Html", "Css", "Java-script","Api"],
+    "demo": "https://rk5756.github.io/GET-WEATHER-API/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "TO-DO-LIST",
+    "imageSrc": "projects/project1.png",
+    "description": "Enabled users to add, complete, and remove tasks efficiently .",
+    "skills": ["Html", "Css", "Java-script"],
+    "demo": "https://rk5756.github.io/TODO-LIST-V-2/",
+    "source": "https://github.com/rk5756/TODO-LIST-V-2"
+  },
+
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["HTML", "CSS", "API"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

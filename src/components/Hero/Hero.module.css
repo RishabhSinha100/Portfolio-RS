@@ -1,0 +1,187 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
+.title {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 100%,
+    rgba(0, 0, 0, 0) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  
+  font-family: monospace;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 0.15em solid rgb(183, 255, 0);
+            
+            animation: typing 3s steps(30, end), blink 0.5s step-end infinite alternate;
+          }
+          @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+          }
+          
+          @keyframes blink {
+            from, to { border-color: transparent; }
+            50% { border-color: #07b097; }
+          }
+          .pause {
+            animation: typing 3s steps(30, end) forwards;
+            animation-delay: 10s;
+            border-right: none;
+          }
+
+          .description {
+            font-size: 30px;
+            font-family: var(--font-roboto);
+            margin-bottom: 52px;
+          
+            
+          }
+          .description:hover{
+            color: rgb(1, 105, 91);
+             text-shadow: 1px 1px 2px rgba(209, 254, 250, 0.722); /* Adds a subtle text shadow */
+  transform: scale(0.9); /* Slightly enlarges the text on hover */
+            
+           
+          }
+
+
+
+          .contactBtn {
+            text-decoration: none;
+            background-color: var(--color-primary);
+            color: var(--color-bg);
+            border-radius: 10px;
+            font-size: 32px;
+            font-weight: 400;
+            padding: 17px 26px;
+            box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+          }
+
+          .contactBtn:hover {
+            color: rgb(3, 3, 3);
+            background-color: rgb(147, 223, 213);
+             
+        }
+        .contactBtn:active {
+          background-color: rgb(255, 253, 253);
+          transform: scale(0.95); 
+          box-shadow: inset 0 0 5px #A3D8FF;
+        }
+        
+        .contactBtn:focus {
+          outline: none; 
+        }
+        
+        .heroImg {
+          width: 29%;
+        
+          z-index: 1;
+        margin-left: 50px;
+          animation-name: floating;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+          /* padding-left: 100px; */
+        }
+
+        @keyframes floating {
+          0% {
+            transform: translate(0, 0px);
+          }
+          50% {
+            transform: translate(0, 10px);
+          }
+          100% {
+            transform: translate(0, -0px);
+          }
+        }
+
+        .topBlur {
+          position: absolute;
+          width: 30vw;
+          height: 30vw;
+          min-width: 350px;
+          min-width: 350px;
+          top: 126px;
+          left: -8vw;
+          border-radius: 764px;
+          background: black;
+          filter: blur(440px);
+          z-index: 0;
+        }
+
+        .bottomBlur {
+          position: absolute;
+          width: 70vw;
+          height: 20vw;
+          min-width: 350px;
+          min-width: 250px;
+          top: 1000px;
+          right: -25vw;
+          border-radius: 764px;
+          background: black;
+          filter: blur(450px);
+          z-index: 0;
+        }
+
+        @media screen and (max-width: 830px) {
+          .container {
+            flex-direction: column-reverse;
+          }
+        
+          .content {
+            align-items: center;
+          }
+          .heroImg{
+            width: 50%;
+            margin-bottom: 30px;
+            margin-right: 70%;
+         
+          }
+          .title {
+            font-size: 2.2em; /* Adjust font size for smaller screens */
+            white-space: nowrap; /* Keep text on a single row */
+            animation: typing 4s steps(40, end), blink 0.5s step-end infinite alternate; /* Adjust animation timing */
+            border-right: 0.1em solid black; /* Thinner border for smaller screens */
+        }
+        
+        /* Adjustments for smaller screens */
+        .title {
+            width: 100%; /* Text occupies full available width */
+            overflow: hidden; /* Prevent text overflow */
+        }
+        .description{
+          font-size: 1.6em; /* Adjust font size for smaller screens */
+          width: 100%; /* Text occupies full available width */
+        
+        }
+        }
